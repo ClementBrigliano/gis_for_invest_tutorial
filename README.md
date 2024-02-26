@@ -1,2 +1,2 @@
 # gis_for_invest_tutorial
-GIS for Invest Tutorial Series
+My repository where i followed the GIS for Invest Tutorial Series using QGIS.

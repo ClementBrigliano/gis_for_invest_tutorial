@@ -1,0 +1,151 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" id="LULC_ESA_Nepal_bfd48f6a_3027_44de_902d_c0d0b095d714" expanded="1" legend_split_behavior="0" source="./LULC_ESA_Nepal.tif" patch_size="-1,-1" name="LULC_ESA_Nepal" providerKey="gdal" legend_exp="">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyMessage="" minScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0">
+      <extent>
+        <xmin>82.9694444444654664</xmin>
+        <ymin>27.81944444443947617</ymin>
+        <xmax>84.44444444446558862</xmax>
+        <ymax>29.63333333332850827</ymax>
+      </extent>
+      <id>LULC_ESA_Nepal_bfd48f6a_3027_44de_902d_c0d0b095d714</id>
+      <datasource>./LULC_ESA_Nepal.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>LULC_ESA_Nepal</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" maxx="0" crs="" miny="0" minx="0" dimensions="2" minz="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal mode="0" fetchMode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <property key="WMSBackgroundLayer" value="false"/>
+        <property key="WMSPublishDataSourceUrl" value="false"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <provider>
+          <resampling zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" enabled="false"/>
+        </provider>
+        <rasterrenderer nodataColor="" opacity="1" type="paletted" band="1" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <colorPalette>
+            <paletteEntry value="10" color="#f9f493" alpha="255" label="Cropland: rainfed&#xa;"/>
+            <paletteEntry value="11" color="#84eb92" alpha="255" label="Herbaceous cover&#xa;"/>
+            <paletteEntry value="20" color="#f9f493" alpha="255" label="Cropland: irrigated or post-flooding&#xa;"/>
+            <paletteEntry value="30" color="#f9f493" alpha="255" label="Mosaic cropland (>50%) / natural vegetation (tree: shrub: herbaceous cover) (&lt;50%)&#xa;"/>
+            <paletteEntry value="40" color="#84eb92" alpha="255" label="Mosaic natural vegetation (tree: shrub: herbaceous cover) (>50%) / cropland (&lt;50%) &#xa;"/>
+            <paletteEntry value="50" color="#4ba948" alpha="255" label="Tree cover: broadleaved: evergreen: closed to open (>15%)&#xa;"/>
+            <paletteEntry value="60" color="#4ba948" alpha="255" label="Tree cover: broadleaved: deciduous: closed to open (>15%)&#xa;"/>
+            <paletteEntry value="61" color="#4ba948" alpha="255" label="Tree cover: broadleaved: deciduous: closed (>40%)&#xa;"/>
+            <paletteEntry value="70" color="#4ba948" alpha="255" label="Tree cover: needleleaved: evergreen: closed to open (>15%)&#xa;"/>
+            <paletteEntry value="100" color="#4ba948" alpha="255" label="Mosaic tree and shrub (>50%) / herbaceous cover (&lt;50%)&#xa;"/>
+            <paletteEntry value="110" color="#84eb92" alpha="255" label="Mosaic herbaceous cover (>50%) / tree and shrub (&lt;50%)&#xa;"/>
+            <paletteEntry value="120" color="#cccc0d" alpha="255" label="Shrubland&#xa;"/>
+            <paletteEntry value="121" color="#cccc0d" alpha="255" label="Shrubland evergreen&#xa;"/>
+            <paletteEntry value="122" color="#cccc0d" alpha="255" label="Shrubland deciduous&#xa;"/>
+            <paletteEntry value="130" color="#84eb92" alpha="255" label="Grassland&#xa;"/>
+            <paletteEntry value="150" color="#d7c6a8" alpha="255" label="Sparse vegetation (tree: shrub: herbaceous cover) (&lt;15%)&#xa;"/>
+            <paletteEntry value="180" color="#cccc0d" alpha="255" label="Shrub or herbaceous cover: flooded: fresh/saline/brakish water&#xa;"/>
+            <paletteEntry value="190" color="#030301" alpha="255" label="Urban areas&#xa;"/>
+            <paletteEntry value="200" color="#d7c6a8" alpha="255" label="Bare areas&#xa;"/>
+            <paletteEntry value="201" color="#d7c6a8" alpha="255" label="Consolidated bare areas&#xa;"/>
+            <paletteEntry value="202" color="#d7c6a8" alpha="255" label="Unconsolidated bare areas&#xa;"/>
+            <paletteEntry value="210" color="#6686ef" alpha="255" label="Water bodies&#xa;"/>
+            <paletteEntry value="220" color="#dce6e8" alpha="255" label="Permanent snow and ice&#xa;"/>
+          </colorPalette>
+          <colorramp type="randomcolors" name="[source]"/>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation colorizeBlue="128" colorizeGreen="128" colorizeOn="0" colorizeRed="255" saturation="0" grayscaleMode="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </maplayers>
+</qlr>
